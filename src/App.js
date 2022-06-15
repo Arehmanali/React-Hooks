@@ -3,6 +3,7 @@ import "./App.css";
 
 import UseReducer from "./Hooks/UseReducer";
 import UseState from "./Hooks/UseState";
+import UseEffect from "./Hooks/UseEffect";
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
         <UseState />
         <h1>useReducer</h1>
         <UseReducer />
+        <h1>useEffect</h1>
+        <UseEffect />
       </header>
     </div>
   );
