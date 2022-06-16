@@ -4,6 +4,9 @@ import "./App.css";
 import UseReducer from "./Hooks/UseReducer";
 import UseState from "./Hooks/UseState";
 import UseEffect from "./Hooks/UseEffect";
+import UseRef from "./Hooks/UseRef";
+import UseLayoutEffect from "./Hooks/UseLayoutEffect";
+import UseContext from "./Hooks/UseContext";
 
 function App() {
   return (
@@ -16,6 +19,12 @@ function App() {
         <UseReducer />
         <h1>useEffect</h1>
         <UseEffect />
+        <h1>useRef</h1>
+        <UseRef />
+        <h1>useLayoutEffect</h1>
+        <UseLayoutEffect />
+        <h1>useContext & createContext</h1>
+        <UseContext />
       </header>
     </div>
   );

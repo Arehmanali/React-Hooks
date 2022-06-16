@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from "react";
 import axios from "axios";
 
-function UseEffect() {
+const UseEffect = () => {
   const [data, setData] = useState("");
   const count = useRef(0);
   useEffect(() => {
@@ -14,6 +14,6 @@ function UseEffect() {
       });
   }, []);
   return <div>{data}</div>;
-}
+};
 
 export default UseEffect;
