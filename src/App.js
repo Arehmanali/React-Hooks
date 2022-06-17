@@ -24,7 +24,7 @@ function App() {
         <h1>useLayoutEffect</h1>
         <UseLayoutEffect />
         <h1>useContext & createContext</h1>
-        <UseContext />
+        <UseContext></UseContext>
       </header>
     </div>
   );

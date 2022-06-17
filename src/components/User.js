@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import AppContext from "../Hooks/UseContext";
+import { AppContext } from "../Hooks/UseContext";
 
 function User() {
   const { username } = useContext(AppContext);

@@ -11,6 +11,7 @@ function UseRef() {
       inputValue.current.value = "";
     }
   };
+
   return (
     <div>
       <h1>Hello {changeName}!</h1>
